@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+
+
+    <h1>Mad Libs</h1>
+
+    <hr>
+
+    <h2>Mad Lib Insructions</h2>
+
+    <p>
+        Fill in all of the input boxes, then click the 'Mad Lib' button...
+    </p>
+
+    <form action="/action_page.php">
+
+        <ul>
+
+            <li>
+
+                <label for="verbIng">Verb Ending in 'ing':</label>
+                <input type="text" id="verbIng" id="verbIng"><br><br>
+            </li>
+
+            <li>
+                <label for="pluralnoun">Plural Noun:</label>
+                <input type="text" id="pluralnoun" name="pluralNoun"><br><br>
+            </li>
+
+            <li>
+                <label for="adjective">Adjective:</label>
+                <input type="text" id="adjective" name=""><br><br>
+            </li>
+
+            <li>
+                <label for="presentTenseVerb">Present Tense Verb:</label>
+                <input type="text" id="presentTenseVerb" name="presentTenseVerb"><br><br>
+            </li>
+
+            <li> <label for="noun">Noun:</label>
+                <input type="text" id="noun" name="noun"><br><br>
+            </li>
+            </li>
+
+            <button onClick="onSubmit()" type="button">Mad Lib</button>
+
+        </ul>
+
+
+
+
+
+
+    </form>
+
+    <hr>
+
+    <h3>Mad Lib Results</h3>
+
+<p id="madLibResult"></p>
+
+</body>
+
+</html>
